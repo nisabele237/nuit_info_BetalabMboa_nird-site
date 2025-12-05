@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Dégradé bleu doux → blanc */
+body{
+    background: linear-gradient(to bottom, #8fa8ff, #ffffff);
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #000;
+}
+
+/* Animation d’apparition des titres */
+h1, h2 {
+    animation: fadeSlide 0.9s ease-out;
+}
+
+@keyframes fadeSlide {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* Titres */
+h1{
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    border-bottom: 1px solid #444;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+h1 span {
+    color: #1E40FF;       
+    font-weight: 700;     
+    letter-spacing: 1px;   
+}
+
+
+h2{
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+/* Paragraphes */
+p{
+    margin: 20px 0;
+    line-height: 1.6;
+    color: #000;
+}
+
+/* Listes */
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+li {
+    color: #000;
+    margin: 5px 0;
+}
+
+/* Liens */
+a{
+    color: #1E40FF;
+    text-decoration: underline;
+}
+
+
+details {
+    margin: 20px 0;
+    color: #000;
+    border: 1px solid #666;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.7); 
+}
+
+/* Résumé  */
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #000;
+}
