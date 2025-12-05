@@ -30,5 +30,5 @@ Il sâ€™inspire du minimalisme et de la philosophie du **protocole Gemini**, plaÃ
 
 ---
 
-##  Structure du site
+
 
