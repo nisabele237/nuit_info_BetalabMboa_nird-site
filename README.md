@@ -1,7 +1,7 @@
 #  NIRD – Numérique Indépendant, Responsable et Durable
 
 Ce site présente la démarche **NIRD**, une approche visant à promouvoir un numérique plus **indépendant**, **responsable** et **durable**, tout en respectant les principes d’éco-conception. 
-Il s’inspire du minimalisme et de la philosophie du **protocole Gemini**, plaçant le texte et la sobriété au cœur de l’expérience.
+Il s’inspire du minimalisme et de la philosophie du **protocole Gemini**, plaçant le texte et la sobriété au cœur de l’expérience. Afin d'eviter les dépendances, **notre projet a été egalement deployé sur smartphone et sur un serveur web** qui se relaient."
 
 ---
 
